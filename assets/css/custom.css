@@ -15,6 +15,9 @@ body{
     background: url('../img/tile.jpg') top left repeat fixed;
 }
 
+img{
+    max-width: 100%;
+}
 /* global */
 
 h1,h2,h3,h4,h5,h6 {
@@ -36,6 +39,12 @@ h3{
 }
 h4{
     font-size: 18px;
+}
+
+button, input, .btn, a.btn {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    color: white;
 }
 
 .btn{
@@ -118,3 +127,17 @@ h4{
     display: block;
 }
 
+/* layout */
+
+#optin {
+    background: #3e4249;
+    padding: 20px 0;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    font-size: 1.2em;
+}
+
+#optin p {
+    margin: 7px 0 0 0;
+}
